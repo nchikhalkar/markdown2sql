@@ -7,6 +7,7 @@ sample input:
 
 ![image](https://github.com/nchikhalkar/markdown2sql/assets/98278612/e270c67c-ff7c-4ade-aac0-b280f3216a7d)
 
+COPY THE BELOW TEXT to use as sample input
 
 +-------------+---------+
 | Column Name | Type    |
