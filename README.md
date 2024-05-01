@@ -39,10 +39,13 @@ Insert Statements:
 
 -------------------------------------------
 
-##USE CASE:
+## USE CASE:
 Leetcode Problems can be solved on any database using this application, we can copy the markdown and create a table in our environment and can use that for practise or tests.
 
-##Application Screenshots:
+
+-------------------------------------------
+
+## Application Screenshots:
 
 
 ![image](https://github.com/nchikhalkar/markdown2sql/assets/98278612/9453ff60-f5bb-4353-b299-924edf849f49)
