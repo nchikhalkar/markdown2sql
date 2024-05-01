@@ -5,10 +5,19 @@ This is a Flask application which converts Markdown Tables into SQL DML syntax. 
 
 sample input:
 
-| name         | population  | area         |
-+--------------+-------------+--------------+
-| Afghanistan  | 25500100    | 652230       |
-| Algeria      | 37100000    | 2381741      |
+![image](https://github.com/nchikhalkar/markdown2sql/assets/98278612/e270c67c-ff7c-4ade-aac0-b280f3216a7d)
+
+
++-------------+---------+
+| Column Name | Type    |
++-------------+---------+
+| name        | varchar |
+| continent   | varchar |
+| area        | int     |
+| population  | int     |
+| gdp         | bigint  |
++-------------+---------+
+
 
 
 Output:
@@ -28,6 +37,12 @@ Insert Statements:
 
 
 
+-------------------------------------------
+
+##USE CASE:
+Leetcode Problems can be solved on any database using this application, we can copy the markdown and create a table in our environment and can use that for practise or tests.
+
+##Application Screenshots:
 
 
 ![image](https://github.com/nchikhalkar/markdown2sql/assets/98278612/9453ff60-f5bb-4353-b299-924edf849f49)
