@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown to SQL Converter</title>
+</head>
+<body>
+    <h1>Markdown to SQL Converter</h1>
+    
+    <form method="post" action="/">
+        <label for="markdown_input">Input Markdown:</label><br>
+        <textarea id="markdown_input" name="markdown_input" rows="10" cols="50" required></textarea><br><br>
+        <input type="submit" value="Convert">
+    </form>
+
+    {% if sql_output %}
+        <h2>Generated SQL:</h2>
+        <pre>{{ sql_output }}</pre>
+    {% endif %}
+</body>
+</html>
