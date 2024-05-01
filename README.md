@@ -4,12 +4,12 @@ Converts Markdown Tables into SQL Create and Insert Statements
 This is a Flask application which converts Markdown Tables into SQL DML syntax. You can copy the Markdown and Paste it in the Application UI, it will provide SQL code to create the table and insert data into it.
 
 sample input:
-+--------------+-------------+--------------+
-| name         | population  | area         |
-+--------------+-------------+--------------+
-| Afghanistan  | 25500100    | 652230       |
-| Algeria      | 37100000    | 2381741      |
-+--------------+-------------+--------------+
+-- +--------------+-------------+--------------+
+-- | name         | population  | area         |
+-- +--------------+-------------+--------------+
+-- | Afghanistan  | 25500100    | 652230       |
+-- | Algeria      | 37100000    | 2381741      |
+-- +--------------+-------------+--------------+
 
 Output:
 
